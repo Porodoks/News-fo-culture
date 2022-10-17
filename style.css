@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.spisok-1 {
+    display: flex;
+    list-style: none;
+    padding: 0 60px;
+}
+
+.spisok-1 li {
+    padding: 10px;
+    margin: 15px auto;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.container-1 {
+    height: 500px;
+    background: url(img/underwater-hotel.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+}
+
+.container-1 h1 {
+    font-size: 70px;
+    font-weight: normal;
+}
+
+.Dubai {
+    width: 475px;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+.container-2 {
+    margin: 0 auto;
+    width: 1108px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.obzor {
+    display: flex;
+}
+.pic-1 {
+    width: 370px;
+    padding-right: 30px;
+}
+.pic-2 {
+    width: 371px;
+    padding-right: 30px;
+}
+.pic-3 {
+    width: 367px;
+}
+.pic-1 h2 {
+    text-align: left;
+}
+.pic-1 p {
+    text-align: left;
+    font-size: 16px;
+}
+.pic-2 h2 {
+    text-align: left;
+    color: orange;
+}
+.pic-2 p {
+    text-align: left;
+    font-size: 15px;
+}
+.pic-3 h2 {
+    text-align: left;
+}
+.pic-3 {
+    text-align: left;
+}
