@@ -50,7 +50,7 @@ a {
 
 .container-2 {
     margin: 0 auto;
-    width: 1108px;
+    width: 1200px;
     text-align: center;
     margin-top: 50px;
 }
@@ -58,35 +58,110 @@ a {
 .obzor {
     display: flex;
 }
+
 .pic-1 {
-    width: 370px;
+    width: 380px;
     padding-right: 30px;
 }
+
 .pic-2 {
-    width: 371px;
+    width: 380px;
     padding-right: 30px;
 }
+
 .pic-3 {
-    width: 367px;
+    width: 380px;
 }
+
 .pic-1 h2 {
     text-align: left;
 }
+
 .pic-1 p {
     text-align: left;
     font-size: 16px;
 }
+
 .pic-2 h2 {
     text-align: left;
     color: orange;
 }
+
 .pic-2 p {
     text-align: left;
     font-size: 15px;
 }
+
 .pic-3 h2 {
     text-align: left;
 }
+
 .pic-3 {
     text-align: left;
+}
+
+.container-3 {
+    text-align: center;
+    height: 700px;
+    margin: 60px auto;
+    background: url(img/whitecircle.jpg) center no-repeat;
+    background-size: contain;
+    background-color: rgb(218, 215, 215);
+
+}
+
+.theater {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: ;
+}
+
+.sale-1 {
+    padding: 15px 0;
+}
+
+.sale-2 {
+    padding: 15px 0;
+    border-bottom: 2px solid rgb(218, 215, 215);
+    border-top: 2px solid rgb(218, 215, 215);
+}
+
+.sale-3 {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.button {
+    border: none;
+    margin-top: 30px;
+    background-color: orange;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    height: 200px;
+    background-size: cover;
+    color: white;
+}
+footer h1 {
+    padding-top: 30px;
+}
+.spisok-2 {
+    display: flex;
+    list-style: none;
+    padding: 0 60px;
+    border-bottom: 2px solid white;
+}
+.spisok-2 li {
+    padding: 10px;
+    margin: 15px auto;
+}
+footer img {
+background-color: white;
+border: 1px solid white;
 }
