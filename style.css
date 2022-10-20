@@ -22,30 +22,36 @@ header {
     margin: 15px auto;
 }
 
-a {
+.spisok-1 a {
     text-decoration: none;
     color: gray;
 }
 
 .container-1 {
-    height: 500px;
+    height: 700px;
     background: url(img/underwater-hotel.jpg) center no-repeat;
     background-size: cover;
     text-align: center;
     color: rgba(255, 255, 255, 0.705);
 }
-
+.container-1 img {
+    padding-top: 95px;
+}
 .container-1 h1 {
     font-size: 70px;
     font-weight: normal;
+    padding-top: 70px;
+    padding-left: 48px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 .Dubai {
     width: 475px;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 auto;
-    padding-top: 170px;
+    padding-top: 250px;
 }
 
 .container-2 {
@@ -57,16 +63,15 @@ a {
 
 .obzor {
     display: flex;
+    justify-content: space-between;
 }
 
 .pic-1 {
     width: 380px;
-    padding-right: 30px;
 }
 
 .pic-2 {
     width: 380px;
-    padding-right: 30px;
 }
 
 .pic-3 {
@@ -114,8 +119,7 @@ a {
     width: 400px;
     height: 700px;
     margin: 0 auto;
-    padding-top: 30px;
-    text-align: ;
+    padding-top: 50px;
 }
 
 .sale-1 {
@@ -140,11 +144,12 @@ a {
     padding: 10px 30px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 footer {
     background-color: gray;
     text-align: center;
-    height: 200px;
+    height: 250px;
     background-size: cover;
     color: white;
 }
@@ -161,7 +166,24 @@ footer h1 {
     padding: 10px;
     margin: 15px auto;
 }
+.spisok-2 a {
+    text-decoration: none;
+    color: white;
+}
 footer img {
 background-color: white;
 border: 1px solid white;
+width: 30px;
+height: 30px;
+padding: 5px 5px;
+margin: 0 5px;
+}
+.footer-image {
+    padding-left: 0;
+}
+.footer-image a {
+    cursor: pointer;
+}
+.footer-ul {
+    padding: 0 150px;
 }
